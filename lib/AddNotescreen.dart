@@ -110,7 +110,7 @@ class Addnotescreen extends StatelessWidget {
 
                       await pref.setString("notes", notesEncode);
                        Navigator.of(context).pop(true);
-                      // Navigator.of(context).pop();
+                    
                     }
                   },
                   style: ElevatedButton.styleFrom(
